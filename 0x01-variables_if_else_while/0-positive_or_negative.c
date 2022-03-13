@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main _Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
