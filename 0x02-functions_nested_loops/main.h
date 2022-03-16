@@ -1,5 +1,4 @@
-#ifndef HOLBERTON_H_
-#define HOLBERTON_H_
+
 
 int _putchar(char c);
 void print_alphabet(void);
@@ -19,5 +18,3 @@ void pr_3_digit(int charcode, int fmt);
 void print_times_table(int n);
 void print_spaces(int n);
 void print_zero(void);
-
-#endif
