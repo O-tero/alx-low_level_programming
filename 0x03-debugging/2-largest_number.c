@@ -7,8 +7,6 @@
 * @c: third integer
 * Return: largest number
 */
-int main(void)
-{
 int largest_number(int a, int b, int c)
 {
 int largest;
@@ -28,4 +26,4 @@ largest = c;
 
 return (largest);
 }
-}
+
