@@ -1,2 +1,1 @@
-#!/bin/bash 
-Uppercase character.
+This project looks into function and nested loops
