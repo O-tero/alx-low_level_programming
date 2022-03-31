@@ -1,30 +1,20 @@
 #include "main.h"
 /**
- * _sqrt_recursion -  Returns the natural square root of a number.
- * @n: int type
+ * _pow_recursion - Return x's values raised to the power y.
+ * @x: char type
+ * @y: char type
  * Return: char type
  **/
-int _sqrt_recursion(int n)
+int _pow_recursion(int x, int y)
 {
-return (_sqrt_rec(n, 1));
-}
-/**
- * _sqrt_rec - Second entry.
- * @n: int type
- * @x: int type
- * Return: x in square value
- **/
-int _sqrt_rec(int n, int x)
-{
-if (n <= 0)
+
+if (y < 0)
 return (-1);
 
-if (x * x > n)
+else if (y == 0)
+return (1);
 
-return (-1);
 
-if (n == x * x)
-return (x);
+return (x * _pow_recursion(x, y - 1));
 
-return (_sqrt_rec(n, x + 1));
 }
