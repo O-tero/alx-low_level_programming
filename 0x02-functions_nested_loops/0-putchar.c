@@ -1,22 +1,20 @@
-#include <unistd.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - Print the word "Holberton"
- * 
- * Return: Always 0 (Success)
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-
-int main(void)
+void print_alphabet(void)
 {
-    int i;
-    char p[] = "_putchar";
-    
-    for (i =0; i <= 9; i++)
-    {
-        putchar(p[i]);
-    }
-    putchar('\n');
-    return (0);
-}
+	char ch;
 
+	ch = 'a';
+
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	_putchar('\n');
+}
